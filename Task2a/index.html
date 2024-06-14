@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Account</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <div class="background-text">
+            <h1>Create New Account</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="form-steps">
+            <div class="step active">1 Your Profile</div>
+            <div class="step">2 Business Information</div>
+            <div class="step">3 Additional Users</div>
+        </div>
+        <div class="form-step">
+            <h3>Step 1: Your Profile</h3>
+            <p>Enter the login information for your account. You will be able to create additional users after registering.</p>
+            <form id="registration-form">
+                <div class="form-group">
+                    <div class="form-group-half">
+                        <label for="first-name">First Name*</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="Input Your First Name" required>
+                    </div>
+                    <div class="form-group-half">
+                        <label for="last-name">Last Name*</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Input Your Last Name" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-group-half">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" placeholder="Input Your Email" required>
+                    </div>
+                    <div class="form-group-half">
+                        <label for="phone-number">Phone Number*</label>
+                        <input type="tel" id="phone-number" name="phone-number" placeholder="Input Your Phone Number" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-group-half">
+                        <label for="password">Password*</label>
+                        <input type="password" id="password" name="password" placeholder="Create Password" required>
+                    </div>
+                    <div class="form-group-half">
+                        <label for="confirm-password">Confirm Password*</label>
+                        <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Your Password" required>
+                    </div>
+                </div>
+                <div class="form-footer">
+                    <a href="#">Back to Login</a>
+                    <button type="submit">Next Step</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
